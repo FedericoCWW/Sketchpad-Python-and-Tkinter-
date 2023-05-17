@@ -6,7 +6,12 @@ I will try to update it as soon as i can
 
 PD: You will need the following modules:
 import  tkinter as tk
+
 from tkinter import ttk
+
 from tkinter.colorchooser import *
+
 from tkinter import messagebox
+
 from PIL import ImageGrab
+
