@@ -34,7 +34,7 @@ class SkecthPad:
         self.canvas = tk.Canvas(self.root ,bg=self.bg)
 
         self.slider = ttk.Scale(self.frame, orient="vertical", length=100, from_=50.0, to=1.0)
-        self.btn1 = tk.Button(self.frame, text="Save", font="comicsans 12 bold")
+        self.btn1 = tk.Button(self.frame, text="Save", font="comicsans 12 bold", command=self.Guardar)
         self.btn1.grid(column=0, row=1)
         self.btn2 = tk.Button(self.frame, text="Clear", font="comicsans 12 bold", command=self.Clear)
         self.btn2.grid(column=0, row=2)
